@@ -1,0 +1,65 @@
+body {
+  background-image:url("https://img.freepik.com/free-vector/blue-3d-particles-background-design_1017-15410.jpg?w=900&t=st=1679899872~exp=1679900472~hmac=790ac5418682179a75cd966b03ddb57cb0a6fe21b0f014166709f1d9ca709917") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 60px auto;
+  width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.profile-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-link a:hover {
+  text-decoration: underline;
+}
